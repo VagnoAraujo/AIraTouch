@@ -1,0 +1,47 @@
+{
+    "current_profile": "vagno_araujo",
+    "profiles": {
+        "default": {
+            "shortcuts": {},
+            "macros": {}
+        },
+        "vagno_araujo": {
+            "shortcuts": {
+                "shift+ctrl+w": {
+                    "type": "url",
+                    "value": "https://web.whatsapp.com/"
+                },
+                "ctrl+shift+r": {
+                    "type": "media",
+                    "value": "D:/Users/User/Music/Rock Ballads"
+                },
+                "ctrl+shift+m": {
+                    "type": "file",
+                    "value": "C:/Program Files/MPC-HC/mpc-hc64.exe"
+                }
+            },
+            "macros": {}
+        }
+    },
+    "system_active": true,
+    "auto_start": false,
+    "ai": {
+        "enabled": false,
+        "api_key": "",
+        "api_url": "https://api.groq.com/openai/v1/chat/completions",
+        "model": "llama3-8b-8192",
+        "hotkey": "ctrl+alt+a"
+    },
+    "voice": {
+        "enabled": false,
+        "language": "pt-BR",
+        "hotkey": "ctrl+alt+v"
+    },
+    "clipboard": {
+        "enabled": true
+    },
+    "hud": {
+        "enabled": false,
+        "hotkey": "ctrl+alt+h"
+    }
+}

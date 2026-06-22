@@ -1,0 +1,33 @@
+# ══════════════════════════════════════════════════════
+#  AIra9Touch v3.0 ULTRA — requirements.txt
+#  Instale com:  pip install -r requirements.txt
+# ══════════════════════════════════════════════════════
+
+# ── Interface gráfica premium ──────────────────────────
+customtkinter>=5.2.2
+Pillow>=10.3.0
+
+# ── Automação de teclado e mouse ───────────────────────
+keyboard>=0.13.5
+pyautogui>=0.9.54
+
+# ── Bandeja do sistema (system tray) ──────────────────
+pystray>=0.19.5
+
+# ── Monitor de hardware (CPU / RAM / TEMP / DISCO) ─────
+psutil>=5.9.8
+
+# ── Clipboard Intelligence ────────────────────────────
+pyperclip>=1.9.0
+
+# ── Chamadas à API de IA (Groq, OpenAI-compat, etc.) ──
+requests>=2.32.3
+
+# ── Comandos de Voz (opcionais — instale separado) ────
+# SpeechRecognition>=3.10.4
+# pyaudio>=0.2.14
+#
+# Windows: pip install pyaudio
+# Se der erro no pyaudio, baixe o .whl em:
+#   https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio
+# e instale com: pip install PyAudio‑0.2.14‑cp311‑cp311‑win_amd64.whl
